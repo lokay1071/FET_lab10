@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+@import "_Card.css";
+@import "_Expenses.css";
+@import "_ExpenseItem.css";
+@import "_ExpenseDate.css";
+@import "_AddForm.css";
+@import "_ExpenseFilter.css";
+@import "_ExpenseChart.css";
+@import "_Loader.css";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(63, 63, 63, 1);
+}
